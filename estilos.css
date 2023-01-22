@@ -1,0 +1,150 @@
+
+header{
+    background: url(img/h2.jpg); 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    display: grid;
+
+}
+
+
+body{
+/* 
+    background: url(img/rojo.jpg); */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: hsl(0, 0%, 50%); 
+    
+}
+
+.foto1{
+    float: right;
+}
+
+.foto1 p{
+    margin-top: -15px;
+    
+}
+
+.foto2{
+    float: left;
+}
+
+
+a:hover{
+    color:blue;
+    font-weight: bold;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+li{
+    margin-top: 15px;
+    margin-bottom: 150px;
+}
+
+ul{
+    float: left;
+    margin-top: -1px;
+    background-color: red;
+    height: 731px;
+    width: 170px;
+}
+
+main{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    height: 40px;
+    background-color: crimson;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(1) > th{
+    background-color: blue;
+}
+
+td:first-child{
+    background-color:olivedrab;
+}
+
+tr:nth-child(2n){
+    background-color:darkcyan;
+}
+
+tr:nth-child(2n+1){
+    background-color:coral
+}
+
+td a:hover{
+    font-style: italic;
+}
+
+.aficionesf{
+    margin-top: 648px;
+}
+
+.foto img{
+    border: 3px dashed black;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+
+.figura p{
+    font: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    padding-left: 200px;
+    
+  }
+  
+  .figura{
+    float: left;
+    width: 240px;
+
+    
+  }
+
+  .descrf{
+    margin-top: 219px;
+  }
+
+  form{
+    margin-top: 100px;
+  }
+
+  .aficionesf{
+    margin-top: 648px;
+  }
+
+.contactof{
+     margin-top: 322px;
+}
+
+#prinf{
+    margin-top: 9px;
+}
+
+.piePeliculas{
+    margin-top: 648px;
+    background-color: crimson;
+}
+
